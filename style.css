@@ -20,6 +20,9 @@ section {
 }
 
 .header h3 {
+  font-size: 16px;
+  line-height: 19.36px;
+  font-weight: 700;
   margin: 0;
   margin-bottom: 10px;
   text-shadow: 0px 4px 4px #00000040;
@@ -30,10 +33,17 @@ section {
 }
 
 .tab-button {
+  font-size: 8px;
+  line-height: 9.68px;
+  font-weight: 600;
   width: 100px;
   text-align: center;
   background-color: #f1f1f1;
   color: #000;
+}
+
+.tab-button img {
+  margin-right: 4px;
 }
 
 .active {

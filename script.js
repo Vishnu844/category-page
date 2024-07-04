@@ -57,7 +57,7 @@ function displayProducts(products) {
   });
 }
 
-tabs.forEach((tab, index) => {
+tabs.forEach((tab) => {
   tab.addEventListener("click", (e) => {
     tabs.forEach((tab) => tab.classList.remove("active"));
     tab.classList.add("active");
